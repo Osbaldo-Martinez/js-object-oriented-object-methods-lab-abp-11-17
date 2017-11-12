@@ -1,9 +1,7 @@
-class BoardMember(na,hs,tr){
-  constructor{
+function BoardMember(na,hs,tr){
     this.name = na;
     this.homeState = hs;
-    this.training = tr;
-  }
+    this.training = tr;  
 }
 BoardMember.prototype.veto(){
   return "No, I must disagree!"
